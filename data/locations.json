@@ -1,0 +1,1694 @@
+{
+  "meta": {
+    "title": "Maejo Internship Location Atlas",
+    "sourceFile": "68S3-ฝึกงาน 69S2-497-สัตวศาสตร์-690505.xlsx",
+    "sheetName": "68S3-ฝึกงาน 69S2-497 รวม ",
+    "generatedAt": "2026-05-28T05:47:50.410401+00:00",
+    "totalRecords": 247,
+    "mappedRecords": 87,
+    "unmappedRecords": 160,
+    "mappedLocations": 36,
+    "mappedProvinces": 20
+  },
+  "stats": {
+    "topProvinces": [
+      {
+        "province": "เชียงใหม่",
+        "studentCount": 24
+      },
+      {
+        "province": "ลำพูน",
+        "studentCount": 8
+      },
+      {
+        "province": "สระบุรี",
+        "studentCount": 8
+      },
+      {
+        "province": "กาญจนบุรี",
+        "studentCount": 8
+      },
+      {
+        "province": "ฉะเชิงเทรา",
+        "studentCount": 6
+      },
+      {
+        "province": "ชัยนาท",
+        "studentCount": 4
+      },
+      {
+        "province": "นครศรีธรรมราช",
+        "studentCount": 4
+      },
+      {
+        "province": "ลำปาง",
+        "studentCount": 3
+      },
+      {
+        "province": "เพชรบูรณ์",
+        "studentCount": 3
+      },
+      {
+        "province": "ปราจีนบุรี",
+        "studentCount": 3
+      },
+      {
+        "province": "นครปฐม",
+        "studentCount": 2
+      },
+      {
+        "province": "นครราชสีมา",
+        "studentCount": 2
+      },
+      {
+        "province": "ประจวบคีรีขันธ์",
+        "studentCount": 2
+      },
+      {
+        "province": "ราชบุรี",
+        "studentCount": 2
+      },
+      {
+        "province": "พิษณุโลก",
+        "studentCount": 2
+      },
+      {
+        "province": "กรุงเทพมหานคร",
+        "studentCount": 2
+      },
+      {
+        "province": "กำแพงเพชร",
+        "studentCount": 1
+      },
+      {
+        "province": "สระแก้ว",
+        "studentCount": 1
+      },
+      {
+        "province": "พะเยา",
+        "studentCount": 1
+      },
+      {
+        "province": "อุบลราชธานี",
+        "studentCount": 1
+      }
+    ],
+    "topMissingEstablishments": [
+      {
+        "establishment": "Unknown placement",
+        "studentCount": 109
+      },
+      {
+        "establishment": "บริษัท ซีพีเอฟ",
+        "studentCount": 12
+      },
+      {
+        "establishment": "บริษัท ไทยฟู๊ดส์ จำกัด (มหาชน)",
+        "studentCount": 5
+      },
+      {
+        "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ทา)",
+        "studentCount": 4
+      },
+      {
+        "establishment": "เครือบริษัทไทยฟู้ดส์",
+        "studentCount": 3
+      },
+      {
+        "establishment": "บริษัท เบทาโกร - ฟารม์สุกรพันธุ์ จ.ลำพูน",
+        "studentCount": 3
+      },
+      {
+        "establishment": "บริษัท สุรชัย คอนแทรค ฟาร์มมิ่ง จำกัด",
+        "studentCount": 2
+      },
+      {
+        "establishment": "โรงฟักทรัพย์สมบูรณ์ บริษัท สหฟาร์ม จำกัด",
+        "studentCount": 2
+      }
+    ]
+  },
+  "locations": [
+    {
+      "id": "location-2",
+      "title": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด",
+      "address": "88 หมู่ 8 ต.เเม่เเตง อ.แม่แตง จ.เชียงใหม่ 50150",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "6",
+          "studentId": "6822102006.0",
+          "name": "นายชนาธิป ขาวปะคำ",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "13",
+          "studentId": "6822102013.0",
+          "name": "นายฤทธิธรรม เลือดกระโทก",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "19",
+          "studentId": "6822102019.0",
+          "name": "นายอนันทภัทร์ แก้วพิมาย",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "21",
+          "studentId": "6622101364.0",
+          "name": "นางสาวธัญญลักษณ์ ศิริอ่อน",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "40",
+          "studentId": "6622101443.0",
+          "name": "นางสาวสุชาดา อะโน",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "41",
+          "studentId": "6622101451.0",
+          "name": "นางสาวสุวิภา มีปา",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "9",
+          "studentId": "6622101337.0",
+          "name": "นางสาวโชติกา คล้ายชม",
+          "establishment": "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท มงคลแอนด์ซันส์ฟาร์ม จำกัด"
+      ],
+      "majors": [
+        "การผลิตสุกร 4 ปี ปกติ",
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 7,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-8",
+      "title": "หมู่บ้านเกษตรกรรมหนองหว้า",
+      "address": "109 หมู่ 3 ต.บ้านซ่อง อ.พนมสารคาม จ.ฉะเชิงเทรา 24120",
+      "province": "ฉะเชิงเทรา",
+      "coords": {
+        "lat": 13.6904,
+        "lng": 101.0779
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "4",
+          "studentId": "6822102004.0",
+          "name": "นายจักรรินทร์ มานะวงศ์",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "7",
+          "studentId": "6822102007.0",
+          "name": "นายธนากร ผิวทอง",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "8",
+          "studentId": "6822102008.0",
+          "name": "นายปฐมพร ศรีสุมล",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "10",
+          "studentId": "6822102010.0",
+          "name": "นายพชรพล บัวทอง",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "12",
+          "studentId": "6822102012.0",
+          "name": "นายภูริณัฐ บัวลพ",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "17",
+          "studentId": "6822102017.0",
+          "name": "นายสุรศักดิ์ จันทรมาศ",
+          "establishment": "หมู่บ้านเกษตรกรรมหนองหว้า"
+        }
+      ],
+      "establishments": [
+        "หมู่บ้านเกษตรกรรมหนองหว้า"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 6,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-4",
+      "title": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)",
+      "address": "277/1 หมู่ 5 ต.ริมเหนือ อ.แม่ริม จ.เชียงใหม่ 50180",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "2",
+          "studentId": "6822102002.0",
+          "name": "นายกฤตภาส ศิลปไพรสณฑ์",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "3",
+          "studentId": "6822102003.0",
+          "name": "นายกลวัชร แซ่เกอ",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "11",
+          "studentId": "6822102011.0",
+          "name": "นายพลศรุต ทรายแหลมทอง",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "5",
+          "studentId": "6622101320.0",
+          "name": "นางสาวจันทร์ทิมา ครอบทอง",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "7",
+          "studentId": "6622101330.0",
+          "name": "นางสาวชนิดา บุษบา",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "12",
+          "studentId": "6622101342.0",
+          "name": "นางสาวณัฐนารี หอมหวล",
+          "establishment": "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+        }
+      ],
+      "establishments": [
+        "บริษัท วีพีเอฟ กรุ๊ป (1973) จำกัด (ฟาร์มสุกรแม่ริม)"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ",
+        "การผลิตสุกร 4 ปี ปกติ"
+      ],
+      "studentCount": 6,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-12",
+      "title": "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)",
+      "address": "87 หมู่ที่ 16 ต.ทุ่งปรัง อ.สิชล จ.นครศรีธรรมราช 80120",
+      "province": "นครศรีธรรมราช",
+      "coords": {
+        "lat": 8.4304,
+        "lng": 99.9631
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "19",
+          "studentId": "6822103019.0",
+          "name": "นางสาววรรณภา ปราบพล",
+          "establishment": "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "13",
+          "studentId": "6822103013.0",
+          "name": "นายพีระวิทย์ โนนไธสงค์",
+          "establishment": "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "34",
+          "studentId": "6822103034.0",
+          "name": "นายภูวนัตถ์ ทองศรีนวล",
+          "establishment": "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "15",
+          "studentId": "6822103015.0",
+          "name": "นายเมธัส หลงเก",
+          "establishment": "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)"
+        }
+      ],
+      "establishments": [
+        "ฟาร์ม IB Ranch (Sichon) (โคเนื้อ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 4,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-3",
+      "title": "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา",
+      "address": "130/1 ม.16 ต.ทาสบเส้า อ.แม่ทา จ.ลำพูน 51170",
+      "province": "ลำพูน",
+      "coords": {
+        "lat": 18.579,
+        "lng": 99.0087
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "1",
+          "studentId": "6822102001.0",
+          "name": "นางสาวกนกพร สิริแจ่มพงศ์",
+          "establishment": "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "22",
+          "studentId": "6822102022.0",
+          "name": "นางสาวอิสรียา ชมจันทร์",
+          "establishment": "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "5",
+          "studentId": "6822102005.0",
+          "name": "นายชนะชัย ไพรสุขสันต์",
+          "establishment": "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "9",
+          "studentId": "6822102009.0",
+          "name": "นายพงษ์ไชยสิทธิ์ ขวัญจิตต์ขวัญใจ",
+          "establishment": "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา"
+        }
+      ],
+      "establishments": [
+        "บริษัท วีพีเอฟ - ฟาร์มสุกรแม่ทา"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 4,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-9",
+      "title": "CP วังม่วง (โคนม)",
+      "address": "7/3 หมู่ 2 ต.วังม่วง อ.วังม่วง จ.สระบุรี 18220",
+      "province": "สระบุรี",
+      "coords": {
+        "lat": 14.5289,
+        "lng": 100.9101
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "11",
+          "studentId": "6822103011.0",
+          "name": "นางสาวนัยน์กานต์ อินทร์ปรางค์",
+          "establishment": "CP วังม่วง (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "25",
+          "studentId": "6822103025.0",
+          "name": "นางสาวสุพะธิดา ใบพะออม",
+          "establishment": "CP วังม่วง (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "23",
+          "studentId": "6822103023.0",
+          "name": "นายสรวิชญ์ ทรัพย์สินชัย",
+          "establishment": "CP วังม่วง (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "32",
+          "studentId": "6822103032.0",
+          "name": "นายอาตาอู -",
+          "establishment": "CP วังม่วง (โคนม)"
+        }
+      ],
+      "establishments": [
+        "CP วังม่วง (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 4,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-11",
+      "title": "ฟาร์ม BD Dairy Land (โคนม)",
+      "address": "45 หมู่ที่ 5 บ้านซับกระดาน ต.ซับสนุ่น อ.มวกเหล็ก จ.สระบุรี 18220",
+      "province": "สระบุรี",
+      "coords": {
+        "lat": 14.5289,
+        "lng": 100.9101
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "3",
+          "studentId": "6822103003.0",
+          "name": "นายกฤษกร หงษ์ทอง",
+          "establishment": "ฟาร์ม BD Dairy Land (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "18",
+          "studentId": "6822103018.0",
+          "name": "นายวชิระ การัตน์",
+          "establishment": "ฟาร์ม BD Dairy Land (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "22",
+          "studentId": "6822103022.0",
+          "name": "นายศุภสิทธิ์ แซ่ลี้",
+          "establishment": "ฟาร์ม BD Dairy Land (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "27",
+          "studentId": "6822103027.0",
+          "name": "นายอนุวัฒน์ แสงแก้ว",
+          "establishment": "ฟาร์ม BD Dairy Land (โคนม)"
+        }
+      ],
+      "establishments": [
+        "ฟาร์ม BD Dairy Land (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 4,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-26",
+      "title": "บริษัท ท็อปฟีดมิลล์ จำกัด",
+      "address": "8/9 หมู่ 7 ต.พังตรุ อ.ท่าม่วง จ.กาญจนบุรี 1110",
+      "province": "กาญจนบุรี",
+      "coords": {
+        "lat": 14.0228,
+        "lng": 99.5328
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "2",
+          "studentId": "6822101002.0",
+          "name": "นางสาวจิรัฐติกาล เลาซ้ง",
+          "establishment": "บริษัท ท็อปฟีดมิลล์ จำกัด"
+        },
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "3",
+          "studentId": "6822101003.0",
+          "name": "นางสาวชนิสรา เสมอใจ",
+          "establishment": "บริษัท ท็อปฟีดมิลล์ จำกัด"
+        },
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "15",
+          "studentId": "6822101014.0",
+          "name": "นางสาวภัคจิรา วิมุตวโรตม์",
+          "establishment": "บริษัท ท็อปฟีดมิลล์ จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท ท็อปฟีดมิลล์ จำกัด"
+      ],
+      "majors": [
+        "สัตว์ปีก 2 ปี ปกติ"
+      ],
+      "studentCount": 3,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-29",
+      "title": "บริษัท ฟาร์มหมอต้น จำกัด",
+      "address": "199 ม.2 ต.เขาไม้แก้ว อ.กบินทร์บุรี จ.ปราจีนบุรี 25110",
+      "province": "ปราจีนบุรี",
+      "coords": {
+        "lat": 14.0509,
+        "lng": 101.3701
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "postal",
+      "students": [
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "31",
+          "studentId": "6622101418.0",
+          "name": "นางสาววรรณพร หอมนาน",
+          "establishment": "บริษัท ฟาร์มหมอต้น จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "33",
+          "studentId": "6622101423.0",
+          "name": "นางสาววิชชุดา บุญวิเศษ",
+          "establishment": "บริษัท ฟาร์มหมอต้น จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 4 ปี ปกติ",
+          "order": "30",
+          "studentId": "6622101416.0",
+          "name": "นายวชิรวิทย์ กองตัน",
+          "establishment": "บริษัท ฟาร์มหมอต้น จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท ฟาร์มหมอต้น จำกัด"
+      ],
+      "majors": [
+        "การผลิตสุกร 4 ปี ปกติ"
+      ],
+      "studentCount": 3,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-13",
+      "title": "ฟาร์ม VP Cattle (โคเนื้อประกวด)",
+      "address": "79 หมู่ 28 ต.พุทธบาท อ.ชนแดน จ.เพชรบูรณ์ 67150",
+      "province": "เพชรบูรณ์",
+      "coords": {
+        "lat": 16.418,
+        "lng": 101.1606
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "17",
+          "studentId": "6822103017.0",
+          "name": "นายรัฐศาสตร์ ลายโถ",
+          "establishment": "ฟาร์ม VP Cattle (โคเนื้อประกวด)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "20",
+          "studentId": "6822103020.0",
+          "name": "นายวิทวัส เกื้อกูล",
+          "establishment": "ฟาร์ม VP Cattle (โคเนื้อประกวด)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "26",
+          "studentId": "6822103026.0",
+          "name": "นายอธิป จันทรานนท์",
+          "establishment": "ฟาร์ม VP Cattle (โคเนื้อประกวด)"
+        }
+      ],
+      "establishments": [
+        "ฟาร์ม VP Cattle (โคเนื้อประกวด)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 3,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-28",
+      "title": "บริษัท สหฟาร์ม จำกัด",
+      "address": "128 ถ.รามอินทรา แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร 10230",
+      "province": "กรุงเทพมหานคร",
+      "coords": {
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "12",
+          "studentId": "6822101012.0",
+          "name": "นายพัฒนพล เบ็ญจรัตน์",
+          "establishment": "บริษัท สหฟาร์ม จำกัด"
+        },
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "18",
+          "studentId": "6822101018.0",
+          "name": "นายสิทธิชัย กลัดทอง",
+          "establishment": "บริษัท สหฟาร์ม จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท สหฟาร์ม จำกัด"
+      ],
+      "majors": [
+        "สัตว์ปีก 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-34",
+      "title": "ชัญญาพรฟาร์ม (โคนม)",
+      "address": "56 หมู่ 4 ต.ดอนชะเอม อ.ท่ามะกา จ.กาญจนบุรี 71130",
+      "province": "กาญจนบุรี",
+      "coords": {
+        "lat": 14.0228,
+        "lng": 99.5328
+      },
+      "provinceIndex": 3,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 4 ปี ปกติ",
+          "order": "35",
+          "studentId": "6622101457.0",
+          "name": "นายอภิวัฒน์ ยศทะแสน",
+          "establishment": "ชัญญาพรฟาร์ม (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 4 ปี ปกติ",
+          "order": "36",
+          "studentId": "6622101458.0",
+          "name": "นายอภิสิทธิ์ มีสัตย์ใจ",
+          "establishment": "ชัญญาพรฟาร์ม (โคนม)"
+        }
+      ],
+      "establishments": [
+        "ชัญญาพรฟาร์ม (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 4 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-24",
+      "title": "เอ็มมิลค์ แดรี่ฟาร์ม (โคนม)",
+      "address": "333/3 หมู่7 ต.หนองบัว อ.เมือง จ.กาญจนบุรี 71190",
+      "province": "กาญจนบุรี",
+      "coords": {
+        "lat": 14.0228,
+        "lng": 99.5328
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "2",
+          "studentId": "6822103002.0",
+          "name": "นางสาวกมลลักษณ์ ปั๋นแก้ว",
+          "establishment": "เอ็มมิลค์ แดรี่ฟาร์ม (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "31",
+          "studentId": "6822103031.0",
+          "name": "นางสาวอัจฉริยา งามพรม",
+          "establishment": "เอ็มมิลค์ แดรี่ฟาร์ม (โคนม)"
+        }
+      ],
+      "establishments": [
+        "เอ็มมิลค์ แดรี่ฟาร์ม (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-20",
+      "title": "สำนักงานปศุสัตว์จ.ชัยนาท (หน่วยงานราชการ)",
+      "address": "หมู่ 4 ต.เขาท่าพระ อ.เมืองชัยนาท จ.ชัยนาท 17000",
+      "province": "ชัยนาท",
+      "coords": {
+        "lat": 15.1852,
+        "lng": 100.1251
+      },
+      "provinceIndex": 3,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "9",
+          "studentId": "6822103009.0",
+          "name": "นายธีรภัทร อินทพันธ์",
+          "establishment": "สำนักงานปศุสัตว์จ.ชัยนาท (หน่วยงานราชการ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "21",
+          "studentId": "6822103021.0",
+          "name": "นายศรุต เพ็งคล้าย",
+          "establishment": "สำนักงานปศุสัตว์จ.ชัยนาท (หน่วยงานราชการ)"
+        }
+      ],
+      "establishments": [
+        "สำนักงานปศุสัตว์จ.ชัยนาท (หน่วยงานราชการ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-5",
+      "title": "บริษัท เอ.บี.เจ. ฟาร์ม จำกัด",
+      "address": "140 หมู่ 1 ต.หนองดินแดง อ.เมืองนครปฐม จ.นครปฐม 73000",
+      "province": "นครปฐม",
+      "coords": {
+        "lat": 13.8199,
+        "lng": 100.0622
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "16",
+          "studentId": "6822102016.0",
+          "name": "นางสาวสุพัตรา หาญไธสง",
+          "establishment": "บริษัท เอ.บี.เจ. ฟาร์ม จำกัด"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "18",
+          "studentId": "6822102018.0",
+          "name": "นางสาวหยาดฝน ทรัพย์สินชัย",
+          "establishment": "บริษัท เอ.บี.เจ. ฟาร์ม จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท เอ.บี.เจ. ฟาร์ม จำกัด"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-14",
+      "title": "ฟาร์มวิจัยโคนมปักธงชัย (โคนม)",
+      "address": "บริษัท ซีพีเอฟ (ประเทศไทย) จำกัด (มหาชน) 99 หมู่ 16 ต.ตะขบ อ.ปักธงชัย จ.นครราชสีมา 30150",
+      "province": "นครราชสีมา",
+      "coords": {
+        "lat": 14.9799,
+        "lng": 102.0977
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "10",
+          "studentId": "6822103010.0",
+          "name": "นางสาวนลิตตา ชัยภัทรศิริกุล",
+          "establishment": "ฟาร์มวิจัยโคนมปักธงชัย (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "30",
+          "studentId": "6822103030.0",
+          "name": "นางสาวอรอนงค์ อิ่มจันทร์",
+          "establishment": "ฟาร์มวิจัยโคนมปักธงชัย (โคนม)"
+        }
+      ],
+      "establishments": [
+        "ฟาร์มวิจัยโคนมปักธงชัย (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-17",
+      "title": "วรศิลป์ฟาร์ม (โคเนื้อ)",
+      "address": "536 ม. 1 ต.เขาน้อย อ.ปราณบุรี จ.ประจวบคีรีขันธ์ 77160",
+      "province": "ประจวบคีรีขันธ์",
+      "coords": {
+        "lat": 11.8124,
+        "lng": 99.7973
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "33",
+          "studentId": "6822103033.0",
+          "name": "นายกฤติน นาอนันต์",
+          "establishment": "วรศิลป์ฟาร์ม (โคเนื้อ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "8",
+          "studentId": "6822103008.0",
+          "name": "นายทักษิณ สาลีวรรณ",
+          "establishment": "วรศิลป์ฟาร์ม (โคเนื้อ)"
+        }
+      ],
+      "establishments": [
+        "วรศิลป์ฟาร์ม (โคเนื้อ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-27",
+      "title": "บริษัท ฟาร์ม 9 ไก่ฟู้ดส์ จำกัด",
+      "address": "17/10 หมู่ที่ 6 ต.ทับยายเชียง อ.พรหมพิราม จ.พิษณุโลก 65150",
+      "province": "พิษณุโลก",
+      "coords": {
+        "lat": 16.8211,
+        "lng": 100.2659
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "6",
+          "studentId": "6822101006.0",
+          "name": "นายดิศพงษ์ สงวนสิน",
+          "establishment": "บริษัท ฟาร์ม 9 ไก่ฟู้ดส์ จำกัด"
+        },
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "13",
+          "studentId": "6822101013.0",
+          "name": "นายพีรภัทร สืบสุนทร",
+          "establishment": "บริษัท ฟาร์ม 9 ไก่ฟู้ดส์ จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท ฟาร์ม 9 ไก่ฟู้ดส์ จำกัด"
+      ],
+      "majors": [
+        "สัตว์ปีก 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-23",
+      "title": "สุรศักดิ์ แดร์รี่ ฟาร์ม (โคนม)",
+      "address": "93/2 หมู่ 3 ต.เขาขลุง อ.บ้านโป่ง จ.ราชบุรี 70110",
+      "province": "ราชบุรี",
+      "coords": {
+        "lat": 13.536,
+        "lng": 99.8171
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "7",
+          "studentId": "6822103007.0",
+          "name": "นายณภัทร พยอมสวย",
+          "establishment": "สุรศักดิ์ แดร์รี่ ฟาร์ม (โคนม)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "12",
+          "studentId": "6822103012.0",
+          "name": "นายบวรวิชญ์ ด้วงชุม",
+          "establishment": "สุรศักดิ์ แดร์รี่ ฟาร์ม (โคนม)"
+        }
+      ],
+      "establishments": [
+        "สุรศักดิ์ แดร์รี่ ฟาร์ม (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-6",
+      "title": "สำนักงานปศุสัตว์จ.ลำปาง",
+      "address": "456 ถ.วังขวา ต.สบตุ๋ย อ.เมืองลำปาง จ.ลำปาง 52100",
+      "province": "ลำปาง",
+      "coords": {
+        "lat": 18.2855,
+        "lng": 99.5128
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "20",
+          "studentId": "6822102020.0",
+          "name": "นางสาวอภิสรา พรมแก้วงาม",
+          "establishment": "สำนักงานปศุสัตว์จ.ลำปาง"
+        },
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "21",
+          "studentId": "6822102021.0",
+          "name": "นางสาวอรุณวรรณ นิ่มนวล",
+          "establishment": "สำนักงานปศุสัตว์จ.ลำปาง"
+        }
+      ],
+      "establishments": [
+        "สำนักงานปศุสัตว์จ.ลำปาง"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-25",
+      "title": "บริษัท ลักษณ์ธนากุล จำกัด",
+      "address": "230 หมู่ 4 ต.นครเจดีย์ อ.ป่าซาง จ.ลำพูน 51120",
+      "province": "ลำพูน",
+      "coords": {
+        "lat": 18.579,
+        "lng": 99.0087
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "7",
+          "studentId": "6822101007.0",
+          "name": "นายตี๋ ลุงซอย",
+          "establishment": "บริษัท ลักษณ์ธนากุล จำกัด"
+        },
+        {
+          "major": "สัตว์ปีก 2 ปี ปกติ",
+          "order": "9",
+          "studentId": "6822101009.0",
+          "name": "นายธนาธาร เวียงสิมา",
+          "establishment": "บริษัท ลักษณ์ธนากุล จำกัด"
+        }
+      ],
+      "establishments": [
+        "บริษัท ลักษณ์ธนากุล จำกัด"
+      ],
+      "majors": [
+        "สัตว์ปีก 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-30",
+      "title": "ฟาร์มไก่พันธุ์บ้านโฮ่ง",
+      "address": "อ.บ้านโฮ่ง จ.ลำพูน 51130",
+      "province": "ลำพูน",
+      "coords": {
+        "lat": 18.579,
+        "lng": 99.0087
+      },
+      "provinceIndex": 3,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 4 ปี ปกติ",
+          "order": "36",
+          "studentId": "6622101427.0",
+          "name": "นางสาวศศิกาญจน์ สนธิไชย",
+          "establishment": "ฟาร์มไก่พันธุ์บ้านโฮ่ง"
+        },
+        {
+          "major": "สัตว์ปีก 4 ปี ปกติ",
+          "order": "8",
+          "studentId": "6622101325.0",
+          "name": "นางสาวเจนจิรา ร้องสาคร",
+          "establishment": "ฟาร์มไก่พันธุ์บ้านโฮ่ง"
+        }
+      ],
+      "establishments": [
+        "ฟาร์มไก่พันธุ์บ้านโฮ่ง"
+      ],
+      "majors": [
+        "สัตว์ปีก 4 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-31",
+      "title": "ฟาร์มไก่พันธุ์สามหลัง",
+      "address": "55 หมู่ 9 บ้านสันติสุข ต.สันติสุข อ.ดอยหล่อ จ.เชียงใหม่ 50160",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 6,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "สัตว์ปีก 4 ปี ปกติ",
+          "order": "38",
+          "studentId": "6622101432.0",
+          "name": "นายศิกวัส นาคสูตร",
+          "establishment": "ฟาร์มไก่พันธุ์สามหลัง"
+        },
+        {
+          "major": "สัตว์ปีก 4 ปี ปกติ",
+          "order": "42",
+          "studentId": "6622101454.0",
+          "name": "นายอนุภัทร ตับไหว",
+          "establishment": "ฟาร์มไก่พันธุ์สามหลัง"
+        }
+      ],
+      "establishments": [
+        "ฟาร์มไก่พันธุ์สามหลัง"
+      ],
+      "majors": [
+        "สัตว์ปีก 4 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-36",
+      "title": "ศูนย์วิจัยการผสมเทียมและเทคโนโลยีชีวภาพเชียงใหม่ (หน่วยงานราชการ)",
+      "address": "195 ม.1 ถ.ห้วยแก้ว ต.ช้างเผือก อ.เมือง จ.เชียงใหม่ 50300",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 8,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 4 ปี ปกติ",
+          "order": "9",
+          "studentId": "6622101333.0",
+          "name": "นายชัยวัฒน์ วังสา",
+          "establishment": "ศูนย์วิจัยการผสมเทียมและเทคโนโลยีชีวภาพเชียงใหม่ (หน่วยงานราชการ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 4 ปี ปกติ",
+          "order": "16",
+          "studentId": "6622101367.0",
+          "name": "นายธีรณินทร์ โพธิ์ราม",
+          "establishment": "ศูนย์วิจัยการผสมเทียมและเทคโนโลยีชีวภาพเชียงใหม่ (หน่วยงานราชการ)"
+        }
+      ],
+      "establishments": [
+        "ศูนย์วิจัยการผสมเทียมและเทคโนโลยีชีวภาพเชียงใหม่ (หน่วยงานราชการ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 4 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-18",
+      "title": "ศูนย์วิจัยและพัฒนาผลิตภัณฑ์ปศุสัตว์เชียงใหม่ (หน่วยงานราชการ)",
+      "address": "122 ถ.ห้วยแก้ว ต.ช้างเผือก อ.เมือง จ.เชียงใหม่ 50300",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 4,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "16",
+          "studentId": "6822103016.0",
+          "name": "นายยงยุทธ วงค์ษา",
+          "establishment": "ศูนย์วิจัยและพัฒนาผลิตภัณฑ์ปศุสัตว์เชียงใหม่ (หน่วยงานราชการ)"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "6",
+          "studentId": "6822103006.0",
+          "name": "นายเฉลิมเกียรติ ฟองแก้ว",
+          "establishment": "ศูนย์วิจัยและพัฒนาผลิตภัณฑ์ปศุสัตว์เชียงใหม่ (หน่วยงานราชการ)"
+        }
+      ],
+      "establishments": [
+        "ศูนย์วิจัยและพัฒนาผลิตภัณฑ์ปศุสัตว์เชียงใหม่ (หน่วยงานราชการ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-33",
+      "title": "สหกรณ์โคนมการเกษตรไชยปราการจำกัด",
+      "address": "176 หมู่ 1 ต.ศรีดงเย็น อ.ชัยปราการ จ.เชียงใหม่ 50320",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 7,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "อาหารสัตว์ 4 ปี ปกติ",
+          "order": "7",
+          "studentId": "6622101380.0",
+          "name": "นางสาวนิราพรรณ ใจแก้ว",
+          "establishment": "สหกรณ์โคนมการเกษตรไชยปราการจำกัด"
+        },
+        {
+          "major": "อาหารสัตว์ 4 ปี ปกติ",
+          "order": "8",
+          "studentId": "6622101381.0",
+          "name": "นางสาวนุชจรีย์ เกตุนวล",
+          "establishment": "สหกรณ์โคนมการเกษตรไชยปราการจำกัด"
+        }
+      ],
+      "establishments": [
+        "สหกรณ์โคนมการเกษตรไชยปราการจำกัด"
+      ],
+      "majors": [
+        "อาหารสัตว์ 4 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-16",
+      "title": "โรงพยาบาลสัตว์เพ็ททูแคร์",
+      "address": "158 หมู่ 3 ถ.เชียงใหม่-พร้าว ต. หนองจ๊อม อ.สันทราย เชียงใหม่ 50210",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 3,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "1",
+          "studentId": "6822103001.0",
+          "name": "นางสาวกนกวรรณ แก้ววินัด",
+          "establishment": "โรงพยาบาลสัตว์เพ็ททูแคร์"
+        },
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "14",
+          "studentId": "6822103014.0",
+          "name": "นางสาวแพรวา เสาวะพงษ์",
+          "establishment": "โรงพยาบาลสัตว์เพ็ททูแคร์"
+        }
+      ],
+      "establishments": [
+        "โรงพยาบาลสัตว์เพ็ททูแคร์"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 2,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-35",
+      "title": "รุ่งรัศมีฟาร์ม (โคเนื้อ)",
+      "address": "155 หมู่ 8 ต.ทุ่งทอง อ.ท่าม่วง จ.กาญจนบุรี 71110",
+      "province": "กาญจนบุรี",
+      "coords": {
+        "lat": 14.0228,
+        "lng": 99.5328
+      },
+      "provinceIndex": 4,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 4 ปี ปกติ",
+          "order": "14",
+          "studentId": "6622101359.0",
+          "name": "นายธนวัฒน์ จันทร์แก้ว",
+          "establishment": "รุ่งรัศมีฟาร์ม (โคเนื้อ)"
+        }
+      ],
+      "establishments": [
+        "รุ่งรัศมีฟาร์ม (โคเนื้อ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 4 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-7",
+      "title": "สำนักงานปศุสัตว์อ.พรานกระต่าย",
+      "address": "ที่ว่าการอ.พรานกระต่าย ถ.ประเวสไพรวัน ต.พรานกระต่าย จ.กำแพงเพชร 62110",
+      "province": "กำแพงเพชร",
+      "coords": {
+        "lat": 16.4828,
+        "lng": 99.5227
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "14",
+          "studentId": "6822102014.0",
+          "name": "นายวัฒนชาติ สืบวงษ์รอด",
+          "establishment": "สำนักงานปศุสัตว์อ.พรานกระต่าย"
+        }
+      ],
+      "establishments": [
+        "สำนักงานปศุสัตว์อ.พรานกระต่าย"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-1",
+      "title": "ชัยเจริญฟาร์มกรุ๊ป จ.ชัยนาท",
+      "address": "225 หมู่ 3 ต.บลวังหมัน อ.วัดสิงห์ จ.ชัยนาท 17120",
+      "province": "ชัยนาท",
+      "coords": {
+        "lat": 15.1852,
+        "lng": 100.1251
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "การผลิตสุกร 2 ปี ปกติ",
+          "order": "15",
+          "studentId": "6822102015.0",
+          "name": "นางสาวศรุดา ปัญหาเสนา",
+          "establishment": "ชัยเจริญฟาร์มกรุ๊ป จ.ชัยนาท"
+        }
+      ],
+      "establishments": [
+        "ชัยเจริญฟาร์มกรุ๊ป จ.ชัยนาท"
+      ],
+      "majors": [
+        "การผลิตสุกร 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-15",
+      "title": "มะขามเฒ่าฟาร์ม (วัวบราห์มัน) (โคประกวด)",
+      "address": "286 อ.วัดสิงห์ จ.ชัยนาท 17120",
+      "province": "ชัยนาท",
+      "coords": {
+        "lat": 15.1852,
+        "lng": 100.1251
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "24",
+          "studentId": "6822103024.0",
+          "name": "นายสุธิพร ฤทธิ์สุทธิ์",
+          "establishment": "มะขามเฒ่าฟาร์ม (วัวบราห์มัน) (โคประกวด)"
+        }
+      ],
+      "establishments": [
+        "มะขามเฒ่าฟาร์ม (วัวบราห์มัน) (โคประกวด)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-21",
+      "title": "สำนักงานปศุสัตว์อ.จุน (หน่วยงานราชการ)",
+      "address": "361 หมู่ที่ 1 ต.ห้วยข้าวก่ำ อ.จุน จ.พะเยา 56150",
+      "province": "พะเยา",
+      "coords": {
+        "lat": 19.1663,
+        "lng": 99.9018
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "4",
+          "studentId": "6822103004.0",
+          "name": "นางสาวแคทรียา มูลเมือง",
+          "establishment": "สำนักงานปศุสัตว์อ.จุน (หน่วยงานราชการ)"
+        }
+      ],
+      "establishments": [
+        "สำนักงานปศุสัตว์อ.จุน (หน่วยงานราชการ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-32",
+      "title": "ศูนย์วิจัยและพัฒนาอาหารสัตว์ลำปาง",
+      "address": "200 หมู่ 6 ต.เวียงตาล อ.ห้างฉัตร จ.ลำปาง 52190",
+      "province": "ลำปาง",
+      "coords": {
+        "lat": 18.2855,
+        "lng": 99.5128
+      },
+      "provinceIndex": 2,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "อาหารสัตว์ 4 ปี ปกติ",
+          "order": "1",
+          "studentId": "6622101317.0",
+          "name": "นายจตุรพร กันทะเขียว",
+          "establishment": "ศูนย์วิจัยและพัฒนาอาหารสัตว์ลำปาง"
+        }
+      ],
+      "establishments": [
+        "ศูนย์วิจัยและพัฒนาอาหารสัตว์ลำปาง"
+      ],
+      "majors": [
+        "อาหารสัตว์ 4 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-10",
+      "title": "Nitchakan Farm (โคนม)",
+      "address": "126 หมู่ 3 ต.ซับมะกรูด อ.คลองหาด จ.สระแก้ว 27260",
+      "province": "สระแก้ว",
+      "coords": {
+        "lat": 13.824,
+        "lng": 102.0646
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "29",
+          "studentId": "6822103029.0",
+          "name": "นายอภิสิทธิ์ เพชรสร",
+          "establishment": "Nitchakan Farm (โคนม)"
+        }
+      ],
+      "establishments": [
+        "Nitchakan Farm (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-22",
+      "title": "สำนักงานปศุสัตว์อ.ม่วงสามสิบ (หน่วยงานราชการ)",
+      "address": "292 ม.5 ต.ม่วงสามสิบ อ อ. ม่วงสามสิบ อุบลราชธานี 34140",
+      "province": "อุบลราชธานี",
+      "coords": {
+        "lat": 15.2448,
+        "lng": 104.8472
+      },
+      "provinceIndex": 1,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "28",
+          "studentId": "6822103028.0",
+          "name": "นายอภิชัย เป็นมงคล",
+          "establishment": "สำนักงานปศุสัตว์อ.ม่วงสามสิบ (หน่วยงานราชการ)"
+        }
+      ],
+      "establishments": [
+        "สำนักงานปศุสัตว์อ.ม่วงสามสิบ (หน่วยงานราชการ)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    },
+    {
+      "id": "location-19",
+      "title": "สหกรณ์โคนมไชยปราการ จำกัด (โคนม)",
+      "address": "176 บ้านแม่ขิ หมู่ที่ 1 ต.ศรีดงเย็น อ.ไชยปราการ จ.เชียงใหม่ 50320",
+      "province": "เชียงใหม่",
+      "coords": {
+        "lat": 18.7883,
+        "lng": 98.9853
+      },
+      "provinceIndex": 5,
+      "precision": "province_approx",
+      "addressSource": "address",
+      "students": [
+        {
+          "major": "โคนมและโคเนื้อ 2 ปี ปกติ",
+          "order": "5",
+          "studentId": "6822103005.0",
+          "name": "นายเจริญ ปู่เมา",
+          "establishment": "สหกรณ์โคนมไชยปราการ จำกัด (โคนม)"
+        }
+      ],
+      "establishments": [
+        "สหกรณ์โคนมไชยปราการ จำกัด (โคนม)"
+      ],
+      "majors": [
+        "โคนมและโคเนื้อ 2 ปี ปกติ"
+      ],
+      "studentCount": 1,
+      "establishmentCount": 1
+    }
+  ],
+  "unmappedRecords": [
+    {
+      "name": "นายสพลดนัย สุขสวัสดิ์",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ลักษณ์ธนากุล จำกัด"
+    },
+    {
+      "name": "นางสาวณัฐนันท์ คำนนท์",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท สุรชัย คอนแทรค ฟาร์มมิ่ง จำกัด"
+    },
+    {
+      "name": "นางสาวณัฐนันท์ คำนนท์",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท สุรชัย คอนแทรค ฟาร์มมิ่ง จำกัด"
+    },
+    {
+      "name": "นายธนกฤต ผดุงสิงขร",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ (ประเทศไทย) จำกัด (มหาชน)"
+    },
+    {
+      "name": "นายก้องภพ ยงทองจรัสสกุล",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ไทยฟู๊ดส์ จำกัด (มหาชน)"
+    },
+    {
+      "name": "นายชวิน วิริยะปราณี",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ไทยฟู๊ดส์ จำกัด (มหาชน)"
+    },
+    {
+      "name": "นายพลังธรรม วุฒิศีลวัต",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ไทยฟู๊ดส์ จำกัด (มหาชน)"
+    },
+    {
+      "name": "นางสาวสาวิตรี มาตา",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "บริษัท ไทยฟู๊ดส์ จำกัด (มหาชน)"
+    },
+    {
+      "name": "นางสาวพัชนี กองติ๊บ",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "โรงฟักทรัพย์สมบูรณ์ บริษัท สหฟาร์ม จำกัด"
+    },
+    {
+      "name": "นางสาวอนัญญา แพวขุนทด",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "โรงฟักทรัพย์สมบูรณ์ บริษัท สหฟาร์ม จำกัด"
+    },
+    {
+      "name": "นายอภิวัฒน์ ทิมเจียม",
+      "major": "สัตว์ปีก 2 ปี ปกติ",
+      "establishment": "Unknown placement"
+    },
+    {
+      "name": "นายฑีฆายุ ภู่อินทร์",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "เครือบริษัทไทยฟู้ดส์"
+    },
+    {
+      "name": "นายธนกร ทองสมนึก",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "เครือบริษัทไทยฟู้ดส์"
+    },
+    {
+      "name": "นางสาวพรรณพักตร์ บุตรดี",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "เครือบริษัทไทยฟู้ดส์"
+    },
+    {
+      "name": "นางสาวนันทิชา ยกจำนวน",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บมจ. ซีพีเอฟ - ศูนย์วิจัยอาหารสัตว์"
+    },
+    {
+      "name": "นางสาวกมลลักษณ์ ชื่นสุขเลิศเกษม",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นางสาวฐิติพร บูชาดวงประทีป",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นางสาวณัฐพร เขื่อนแก้ว",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นายณัฐวุฒิ ศิริพิน",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นายธนกร มั่งมูล",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นายธนโชติ เปี่ยมไชย",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นายธนวิชญ์ ทิโน",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นางสาวพนัทสุตรา กองนอก",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    },
+    {
+      "name": "นางสาวภัทรพิมล แก้วม่วง",
+      "major": "การผลิตสุกร 4 ปี ปกติ",
+      "establishment": "บริษัท ซีพีเอฟ"
+    }
+  ]
+}

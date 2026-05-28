@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maejo Internship Location Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-glow background-glow-left"></div>
+    <div class="background-glow background-glow-right"></div>
+
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxury Green Internship Map</p>
+          <h1>Maejo Internship Location Atlas</h1>
+          <p class="hero-text">
+            A modern static website for browsing internship placements from the
+            Excel workbook, grouped into an interactive Thailand map and a live
+            searchable location index.
+          </p>
+        </div>
+
+        <div class="hero-meta">
+          <div class="meta-pill">
+            <span class="meta-label">Source file</span>
+            <strong id="source-file">Loading workbook...</strong>
+          </div>
+          <div class="meta-pill">
+            <span class="meta-label">Map precision</span>
+            <strong>Province-centered approximation</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Summary statistics">
+        <article class="stat-card">
+          <span class="stat-label">Students in workbook</span>
+          <strong id="stat-total-records" class="stat-value">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Mapped students</span>
+          <strong id="stat-mapped-records" class="stat-value">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Mapped locations</span>
+          <strong id="stat-location-count" class="stat-value">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Covered provinces</span>
+          <strong id="stat-province-count" class="stat-value">0</strong>
+        </article>
+      </section>
+
+      <section class="control-panel" aria-label="Filters">
+        <label class="field">
+          <span>Search</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Search by student, company, address, or province"
+          />
+        </label>
+
+        <label class="field">
+          <span>Major</span>
+          <select id="major-filter">
+            <option value="">All majors</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Province</span>
+          <select id="province-filter">
+            <option value="">All provinces</option>
+          </select>
+        </label>
+
+        <button id="reset-filters" class="ghost-button" type="button">
+          Reset
+        </button>
+      </section>
+
+      <section class="content-grid">
+        <div class="map-panel panel">
+          <div class="panel-heading">
+            <div>
+              <p class="panel-kicker">Interactive map</p>
+              <h2>Placement overview</h2>
+            </div>
+            <div class="panel-actions">
+              <p class="panel-note">
+                Markers are offset around each province center because the workbook
+                does not contain latitude and longitude columns.
+              </p>
+              <div class="route-button-row">
+                <button id="build-routes" class="accent-button" type="button">
+                  Build 2 Regional Paths
+                </button>
+                <button id="clear-path" class="ghost-button" type="button">
+                  Clear Path
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="map" class="map-frame" aria-label="Thailand internship map"></div>
+        </div>
+
+        <aside class="side-panel">
+          <section class="panel route-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Route planner</p>
+                <h2>Regional Hamiltonian paths</h2>
+              </div>
+            </div>
+            <p id="route-status" class="coverage-note">
+              Build two paths from the northern locations: one toward Northeastern Thailand and one toward Central and Southern Thailand.
+            </p>
+            <div id="route-groups" class="route-groups"></div>
+          </section>
+
+          <section class="panel location-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Location index</p>
+                <h2 id="results-title">0 visible locations</h2>
+              </div>
+            </div>
+            <div id="location-list" class="location-list"></div>
+          </section>
+
+          <section class="panel insight-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Coverage notes</p>
+                <h2>Missing map addresses</h2>
+              </div>
+            </div>
+            <p id="coverage-note" class="coverage-note"></p>
+            <div id="missing-establishments" class="missing-establishments"></div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./data/locations.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
