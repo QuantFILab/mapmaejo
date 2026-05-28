@@ -1,15 +1,15 @@
 :root {
-  --bg: #081611;
-  --bg-soft: rgba(12, 34, 24, 0.82);
-  --panel: rgba(11, 39, 28, 0.78);
-  --panel-strong: rgba(8, 30, 21, 0.94);
-  --border: rgba(203, 175, 109, 0.24);
-  --text: #f5f3e9;
-  --muted: #b4c8bc;
-  --gold: #d8b96e;
-  --green: #3ca26f;
-  --green-strong: #174a34;
-  --shadow: 0 28px 70px rgba(0, 0, 0, 0.32);
+  --bg: #f3fbf5;
+  --bg-soft: rgba(233, 246, 236, 0.9);
+  --panel: rgba(255, 255, 255, 0.88);
+  --panel-strong: rgba(246, 253, 247, 0.96);
+  --border: rgba(39, 118, 77, 0.14);
+  --text: #163728;
+  --muted: #5f7f6d;
+  --gold: #79a96b;
+  --green: #3f9b62;
+  --green-strong: #1f6b43;
+  --shadow: 0 24px 60px rgba(41, 97, 64, 0.14);
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 16px;
@@ -29,9 +29,9 @@ body {
   font-family: "Noto Sans Thai", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(54, 122, 84, 0.18), transparent 26%),
-    radial-gradient(circle at top right, rgba(216, 185, 110, 0.1), transparent 22%),
-    linear-gradient(145deg, #06110d 0%, #0b1c15 48%, #07100d 100%);
+    radial-gradient(circle at top left, rgba(113, 181, 128, 0.24), transparent 28%),
+    radial-gradient(circle at top right, rgba(190, 226, 198, 0.42), transparent 24%),
+    linear-gradient(145deg, #f7fdf8 0%, #edf8ef 48%, #f4fbf5 100%);
   overflow-x: hidden;
 }
 
@@ -60,13 +60,13 @@ body::before {
 .background-glow-left {
   top: -8rem;
   left: -8rem;
-  background: rgba(60, 162, 111, 0.45);
+  background: rgba(107, 194, 129, 0.34);
 }
 
 .background-glow-right {
   right: -10rem;
   bottom: -9rem;
-  background: rgba(216, 185, 110, 0.22);
+  background: rgba(190, 226, 198, 0.46);
 }
 
 .shell {
@@ -81,7 +81,7 @@ body::before {
 .stat-card,
 .control-panel {
   border: 1px solid var(--border);
-  background: linear-gradient(180deg, rgba(16, 47, 34, 0.86), rgba(7, 23, 17, 0.88));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(242, 250, 243, 0.93));
   box-shadow: var(--shadow);
   backdrop-filter: blur(16px);
 }
@@ -101,7 +101,7 @@ body::before {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(120deg, transparent 15%, rgba(216, 185, 110, 0.08) 50%, transparent 85%);
+    linear-gradient(120deg, transparent 15%, rgba(126, 176, 119, 0.12) 50%, transparent 85%);
   pointer-events: none;
 }
 
@@ -143,8 +143,8 @@ body::before {
 .meta-pill {
   padding: 18px 20px;
   border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(216, 185, 110, 0.18);
+  background: rgba(241, 250, 243, 0.92);
+  border: 1px solid rgba(63, 155, 98, 0.14);
 }
 
 .meta-pill strong {
@@ -225,15 +225,15 @@ body::before {
 .field input,
 .field select,
 .ghost-button {
-  border: 1px solid rgba(216, 185, 110, 0.18);
-  background: rgba(3, 10, 7, 0.46);
+  border: 1px solid rgba(63, 155, 98, 0.16);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .field input:focus,
 .field select:focus,
 .ghost-button:focus,
 .ghost-button:hover {
-  border-color: rgba(216, 185, 110, 0.55);
+  border-color: rgba(63, 155, 98, 0.52);
 }
 
 .ghost-button,
@@ -244,15 +244,16 @@ body::before {
 }
 
 .accent-button {
-  border: 1px solid rgba(216, 185, 110, 0.5);
-  background: linear-gradient(135deg, rgba(216, 185, 110, 0.24), rgba(31, 86, 61, 0.98));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(63, 155, 98, 0.42);
+  background: linear-gradient(135deg, #6eb887, #2f8754);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  color: #ffffff;
 }
 
 .accent-button:focus,
 .accent-button:hover {
-  border-color: rgba(240, 213, 146, 0.85);
-  background: linear-gradient(135deg, rgba(216, 185, 110, 0.34), rgba(41, 110, 78, 1));
+  border-color: rgba(47, 135, 84, 0.84);
+  background: linear-gradient(135deg, #7ac592, #257548);
 }
 
 .content-grid {
@@ -301,7 +302,7 @@ body::before {
   min-height: 680px;
   border-radius: 22px;
   overflow: hidden;
-  border: 1px solid rgba(216, 185, 110, 0.16);
+  border: 1px solid rgba(63, 155, 98, 0.14);
 }
 
 .side-panel {
@@ -325,9 +326,9 @@ body::before {
   --route-color: var(--gold);
   padding: 18px;
   border-radius: 20px;
-  border: 1px solid rgba(216, 185, 110, 0.16);
+  border: 1px solid rgba(63, 155, 98, 0.14);
   border-left: 4px solid var(--route-color);
-  background: rgba(255, 255, 255, 0.025);
+  background: rgba(243, 251, 245, 0.96);
 }
 
 .route-group-header {
@@ -376,8 +377,8 @@ body::before {
 .route-stop {
   padding: 14px 16px;
   border-radius: 16px;
-  border: 1px solid rgba(216, 185, 110, 0.14);
-  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(63, 155, 98, 0.14);
+  background: rgba(255, 255, 255, 0.84);
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 12px;
@@ -389,8 +390,8 @@ body::before {
 .route-stop:hover,
 .route-stop.is-active {
   transform: translateY(-2px);
-  border-color: rgba(216, 185, 110, 0.42);
-  background: rgba(216, 185, 110, 0.08);
+  border-color: rgba(63, 155, 98, 0.34);
+  background: rgba(112, 187, 133, 0.12);
 }
 
 .route-stop-index {
@@ -400,8 +401,8 @@ body::before {
   display: grid;
   place-items: center;
   font-weight: 700;
-  color: #081611;
-  background: linear-gradient(135deg, #f1d593, var(--route-color));
+  color: #ffffff;
+  background: linear-gradient(135deg, #8ccc9d, var(--route-color));
 }
 
 .route-stop h3 {
@@ -431,7 +432,7 @@ body::before {
 
 .route-list::-webkit-scrollbar-thumb,
 .location-list::-webkit-scrollbar-thumb {
-  background: rgba(216, 185, 110, 0.22);
+  background: rgba(63, 155, 98, 0.22);
   border-radius: 999px;
 }
 
@@ -442,8 +443,8 @@ body::before {
 .location-card {
   padding: 18px;
   border-radius: 18px;
-  border: 1px solid rgba(216, 185, 110, 0.14);
-  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(63, 155, 98, 0.12);
+  background: rgba(255, 255, 255, 0.82);
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
   cursor: pointer;
 }
@@ -451,8 +452,8 @@ body::before {
 .location-card:hover,
 .location-card.is-active {
   transform: translateY(-2px);
-  border-color: rgba(216, 185, 110, 0.42);
-  background: rgba(216, 185, 110, 0.08);
+  border-color: rgba(63, 155, 98, 0.34);
+  background: rgba(112, 187, 133, 0.1);
 }
 
 .location-card h3 {
@@ -479,10 +480,10 @@ body::before {
 .missing-chip {
   padding: 7px 11px;
   border-radius: 999px;
-  background: rgba(60, 162, 111, 0.14);
-  color: #d8f2df;
+  background: rgba(63, 155, 98, 0.12);
+  color: #255c3d;
   font-size: 0.84rem;
-  border: 1px solid rgba(60, 162, 111, 0.26);
+  border: 1px solid rgba(63, 155, 98, 0.22);
 }
 
 .missing-establishments {
@@ -493,8 +494,8 @@ body::before {
 .missing-item {
   padding: 14px 16px;
   border-radius: 16px;
-  border: 1px solid rgba(216, 185, 110, 0.14);
-  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(63, 155, 98, 0.12);
+  background: rgba(255, 255, 255, 0.84);
 }
 
 .missing-item strong {
@@ -510,8 +511,8 @@ body::before {
 .empty-state {
   padding: 24px;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px dashed rgba(216, 185, 110, 0.2);
+  background: rgba(248, 253, 249, 0.96);
+  border: 1px dashed rgba(63, 155, 98, 0.22);
   color: var(--muted);
   line-height: 1.7;
 }
@@ -523,23 +524,23 @@ body::before {
   transform: rotate(-45deg);
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #d8b96e, #215d42 70%);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.34);
+  background: linear-gradient(135deg, #9ad2aa, #2f8754 70%);
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  box-shadow: 0 14px 28px rgba(52, 119, 77, 0.22);
 }
 
 .marker-pin span {
   transform: rotate(45deg);
   font-size: 0.82rem;
   font-weight: 700;
-  color: #07110d;
+  color: #ffffff;
 }
 
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-  background: rgba(8, 25, 18, 0.94);
+  background: rgba(255, 255, 255, 0.98);
   color: var(--text);
-  border: 1px solid rgba(216, 185, 110, 0.24);
+  border: 1px solid rgba(63, 155, 98, 0.18);
 }
 
 .leaflet-popup-content {
@@ -570,7 +571,7 @@ body::before {
 
 .popup-footer {
   margin-top: 12px;
-  color: var(--gold);
+  color: var(--green-strong);
   font-size: 0.82rem;
 }
 
