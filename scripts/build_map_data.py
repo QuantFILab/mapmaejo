@@ -241,7 +241,7 @@ def build_payload() -> dict[str, object]:
 
     return {
         "meta": {
-            "title": "Maejo Internship Location Atlas",
+            "title": "Animal Science and Technology",
             "sourceFile": WORKBOOK_PATH.name,
             "sheetName": str(pd.ExcelFile(WORKBOOK_PATH).sheet_names[0]),
             "generatedAt": datetime.now(timezone.utc).isoformat(),
